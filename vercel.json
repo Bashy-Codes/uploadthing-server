@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "src/app/api/uploadthing/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "UPLOADTHING_TOKEN": "@uploadthing-token",
+    "SUPABASE_URL": "@supabase-url", 
+    "SUPABASE_ANON_KEY": "@supabase-anon-key"
+  }
+}

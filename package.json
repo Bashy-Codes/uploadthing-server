@@ -1,0 +1,28 @@
+{
+  "name": "bestiepals-uploadthing-server",
+  "version": "1.0.0",
+  "description": "Uploadthing FileRoute server for BestiePals photo uploads",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "uploadthing": "^7.7.2",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
